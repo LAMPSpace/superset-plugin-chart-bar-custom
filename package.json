@@ -1,14 +1,18 @@
 {
   "name": "superset-plugin-chart-bar-custom",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Nguyen Trong Dai <ngtrdai@hotmail.com>",
   "description": "Superset Plugin Chart Bar Custom",
   "sideEffects": false,
   "main": "lib/index.js",
   "module": "esm/index.js",
   "files": [
+    "lib",
     "esm",
-    "lib"
+    "src",
+    "test",
+    "tsconfig.json",
+    "tsconfig.tsbuildinfo"
   ],
   "scripts": {
     "build": "npm run build-cjs && npm run build-esm && npm run ts-types",
